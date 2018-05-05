@@ -1,0 +1,9 @@
+h1{ text-align: center; }
+h2{ text-align: center; }
+body{ background-color:white; color:black; font-family:verdana; }
+
+.banner{ height:100px; }
+.aboutUsDiv{ text-align:center; margin-right:5%; font-size:120%; }
+.beforeInfoDiv{ display:block; font-size:140%; font-weight:bold; text-align:center; margin-right:3%; }
+.infoDiv{ color:#007fff; display:inline-block;  }
+.infoContainer{  }
