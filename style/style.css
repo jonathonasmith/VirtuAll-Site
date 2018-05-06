@@ -2,8 +2,12 @@ h1{ text-align: center; }
 h2{ text-align: center; }
 body{ background-color:white; color:black; font-family:verdana; }
 
+.aboutUsDivOne{ text-align:center; font-size:120%; width:50%; margin-right:50%; }
+.aboutUsDivTwo{ text-align:center; font-size:120%; width:50%; margin-left:50%; }
+.aboutUsDiv li{ width:50%; text-align:center; }
+.aboutUsImageDivOne{ width:50%; float: right; text-align:center; }
+.aboutUsImageDivTwo{ width:50%; float:left; text-align:center; }
 .banner{ height:100px; }
-.aboutUsDiv{ text-align:center; margin-right:5%; font-size:120%; }
 .beforeInfoDiv{ display:block; font-size:140%; font-weight:bold; text-align:center; margin-right:3%; }
 .infoDiv{ color:#007fff; display:inline-block;  }
-.infoContainer{  }
+.infoContainer p{ width:50%; }
