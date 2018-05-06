@@ -1,9 +1,9 @@
 h1{ text-align: center; }
 h2{ text-align: center; }
-body{ background-color:white; color:black; font-family:verdana; margin:0; }
+body{ background-color:white; color:black; font-family:Quattrocento Sans, Verdana; margin:0; }
 
-.aboutUsDivOne{ text-align:center; font-size:120%; width:50%; margin-right:50%; }
-.aboutUsDivTwo{ text-align:center; font-size:120%; width:50%; margin-left:50%; }
+.aboutUsDivOne{ text-align:center; font-size:110%; width:50%; margin-right:50%; }
+.aboutUsDivTwo{ text-align:center; font-size:110%; width:50%; margin-left:50%; }
 .aboutUsDiv li{ width:50%; text-align:center; }
 .aboutUsImageDivOne{ width:50%; float: right; text-align:center; }
 .aboutUsImageDivTwo{ width:50%; float:left; text-align:center; }
