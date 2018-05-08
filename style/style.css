@@ -8,7 +8,7 @@ body{ background-color:white; color:black; font-family:Quattrocento Sans, Verdan
 .aboutUsImageDivOne{ width:50%; float: right; text-align:center; }
 .aboutUsImageDivTwo{ width:50%; float:left; text-align:center; }
 .banner{ height:100px; }
-.headerBanner{ height:300px; background-repeat: no-repeat; background-size: 100%; }
+.headerBanner{ background-color:#ece8e7; position:fixed; left:0; right:0; top:0; text-align:center; font-size: 130%; background-repeat: no-repeat; background-size: 100%; }
 .beforeInfoDiv{ display:block; font-size:140%; font-weight:bold; text-align:center; margin-right:3%; }
 .infoDiv{ color:#007fff; display:inline-block;  }
 .infoContainer p{ width:50%; }
