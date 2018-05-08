@@ -7,8 +7,18 @@ body{ background-color:white; color:black; font-family:Quattrocento Sans, Verdan
 .aboutUsDiv li{ width:50%; text-align:center; }
 .aboutUsImageDivOne{ width:50%; float: right; text-align:center; }
 .aboutUsImageDivTwo{ width:50%; float:left; text-align:center; }
+.active { background-color: red; }
 .banner{ height:100px; }
-.headerBanner{ background-color:#ece8e7; position:fixed; left:0; right:0; top:0; text-align:center; font-size: 130%; background-repeat: no-repeat; background-size: 100%; }
-.beforeInfoDiv{ display:block; font-size:140%; font-weight:bold; text-align:center; margin-right:3%; }
+.beforeInfoDiv{ padding-bottom:15px; display:block; font-size:140%; font-weight:bold; text-align:center; margin-right:3%; }
+
+.headerBanner{ background-color:#ece8e7; position:fixed; left:0; right:0; top:0; text-align:center; background-repeat: no-repeat; background-size: 100%; }
+.headerBanner ul { text-align:center;list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #333; }  
+.headerBanner li { display:inline; }  
+.headerBanner li a { display: inline-block; color: white; text-align: center; padding: 10px 16px; text-decoration: none; }  
+.heaerBanner li a:hover { background-color: #111; }   
+
 .infoDiv{ color:#007fff; display:inline-block;  }
 .infoContainer p{ width:50%; }
+
+
+#mainLogo{ padding-top:15px; }
