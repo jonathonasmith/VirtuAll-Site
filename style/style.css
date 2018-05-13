@@ -7,15 +7,15 @@ body{ background-color:white; color:black; font-family:Quattrocento Sans, Verdan
 .aboutUsDiv li{ width:50%; text-align:center; }
 .aboutUsImageDivOne{ width:50%; float: center; text-align:center; }
 .aboutUsImageDivTwo{ width:50%; float: center; text-align:center; }
-.active { background-color: #378ef2; }
-.banner{ height:100px; }
+.active {background-color: #378ef2;}
+.banner{height:100px;}
 .beforeInfoDiv{ padding-bottom:15px; float: center; display:block; font-size:140%; font-weight:bold; text-align:center; margin-right:3%; }
 
 .headerBanner{ background-color:#ece8e7; position:fixed; left:0; right:0; top:0; text-align:center; background-repeat: no-repeat; background-size: 100%; }
 .headerBanner ul { text-align:center;list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #333; }
 .headerBanner li { display:inline; }
 .headerBanner li a { display: inline-block; color: white; text-align: center; padding: 10px 16px; text-decoration: none; }
-.headerBanner li a:hover { background-color: #111; }
+.headerBanner li a:hover { background-color:  #378ef2; }
 
 .infoDiv{ color:#007fff; display:inline-block;  }
 .infoContainer{width:75%; align-content: stretch; text-align:center}
