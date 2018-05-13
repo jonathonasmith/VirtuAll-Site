@@ -15,7 +15,7 @@ body{ background-color:white; color:black; font-family:Quattrocento Sans, Verdan
 .headerBanner ul { text-align:center;list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #333; }
 .headerBanner li { display:inline; }
 .headerBanner li a { display: inline-block; color: white; text-align: center; padding: 10px 16px; text-decoration: none; }
-.heaerBanner li a:hover { background-color: #111; }
+.headerBanner li a:hover { background-color: #111; }
 
 .infoDiv{ color:#007fff; display:inline-block;  }
 .infoContainer p{ width:50%; }
