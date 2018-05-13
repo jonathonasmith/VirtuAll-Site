@@ -2,8 +2,8 @@ h1{ text-align: center; }
 h2{ text-align: center; }
 body{ background-color:white; color:black; font-family:Quattrocento Sans, Verdana; margin:0; }
 
-.aboutUsDivOne{ text-align:center; font-size:110%; width:75%; margin: auto; margin-right:50%; }
-.aboutUsDivTwo{ text-align:center; font-size:110%; width:50%; margin: auto; margin-left:50%; }
+.aboutUsDivOne{ text-align:center; font-size:110%; width:50%; margin: auto; margin-right:10%;}
+.aboutUsDivTwo{ text-align:center; float: left; font-size:110%; width:50%;}
 .aboutUsDiv li{ width:50%; text-align:center; }
 .aboutUsImageDivOne{ width:50%; float: center; text-align:center; }
 .aboutUsImageDivTwo{ width:50%; float: center; text-align:center; }
@@ -18,7 +18,7 @@ body{ background-color:white; color:black; font-family:Quattrocento Sans, Verdan
 .headerBanner li a:hover { background-color: #111; }
 
 .infoDiv{ color:#007fff; display:inline-block;  }
-.infoContainer p{ width:50%; }
+.infoContainer{width:75%; align-content: stretch; text-align:center}
 
 
 #mainLogo{ padding-top:15px; }
