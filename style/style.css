@@ -9,7 +9,10 @@ body{ background-color:white; color:black; font-family:Quattrocento Sans, Verdan
 .aboutUsImageDivTwo{ width:50%; float: center; text-align:center; }
 .active {background-color: #378ef2;}
 .banner{height:100px;}
+.bridge{height:300px;}
 .beforeInfoDiv{ padding-bottom:15px; float: center; display:block; font-size:140%; font-weight:bold; text-align:center; margin-right:3%; }
+
+.profileImage{width: 300px; height:300px; margin:auto;}
 
 .headerBanner{ background-color:#ece8e7; position:fixed; left:0; right:0; top:0; text-align:center; background-repeat: no-repeat; background-size: 100%; }
 .headerBanner ul { text-align:center;list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #333; }
