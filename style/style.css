@@ -1,6 +1,6 @@
 h1{ text-align: center; }
 h2{ text-align: center; }
-body{ background-color:white; color:black; font-family:Quattrocento Sans, Verdana; margin:0; }
+/*body{ background-color:white; color:black; font-family:Quattrocento Sans, Verdana; margin:0; } 
 
 .aboutUsDivOne{ text-align:center; font-size:120%; width:50%; margin: auto; margin-right:10%;}
 .aboutUsDivTwo{ text-align:left; font-size:120%; width:50%; margin: auto; margin-left:52%;}
@@ -20,7 +20,7 @@ body{ background-color:white; color:black; font-family:Quattrocento Sans, Verdan
 .headerBanner li a { display: inline-block; color: white; text-align: center; padding: 10px 16px; text-decoration: none; }
 .headerBanner li a:hover { background-color:  #378ef2; }
 
-/*.infoDiv{ color:#007fff; display:inline-block;  }
+.infoDiv{ color:#007fff; display:inline-block;  }
 .infoContainer{width:75%; align-content: stretch; text-align:center}*/
 
 
