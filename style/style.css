@@ -2,8 +2,8 @@ h1{ text-align: center; }
 h2{ text-align: center; }
 body{ background-color:white; color:black; font-family:Quattrocento Sans, Verdana; margin:0; }
 
-.aboutUsDivOne{ text-align:center; font-size:110%; width:50%; margin: auto; margin-right:10%;}
-.aboutUsDivTwo{ text-align:center; float: left; font-size:110%; width:50%;}
+.aboutUsDivOne{ text-align:center; font-size:120%; width:50%; margin: auto; margin-right:10%;}
+.aboutUsDivTwo{ text-align:left; font-size:120%; width:50%; margin: auto; margin-left:52%;}
 .aboutUsDiv li{ width:50%; text-align:center; }
 .aboutUsImageDivOne{ width:50%; float: center; text-align:center; }
 .aboutUsImageDivTwo{ width:50%; float: center; text-align:center; }
