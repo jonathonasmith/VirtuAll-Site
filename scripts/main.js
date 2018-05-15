@@ -1,5 +1,6 @@
 $(document).ready(function() {
 	$('#fullpage').fullpage();
+//fullpage options
 	//Navigation
 		menu: '#menu',
 		lockAnchors: false,
@@ -13,7 +14,7 @@ $(document).ready(function() {
 
 		//Scrolling
 		css3: true,
-		scrollingSpeed: 700,
+		scrollingSpeed: 800,
 		autoScrolling: true,
 		fitToSection: true,
 		fitToSectionDelay: 1000,
@@ -27,7 +28,7 @@ $(document).ready(function() {
 		continuousHorizontal: false,
 		scrollHorizontally: false,
 		interlockedSlides: false,
-		dragAndMove: false,
+		dragAndMove: true,
 		offsetSections: false,
 		resetSliders: false,
 		fadingEffect: false,
@@ -53,7 +54,7 @@ $(document).ready(function() {
 		fixedElements: '#header, .footer',
 		responsiveWidth: 0,
 		responsiveHeight: 0,
-		responsiveSlides: false,
+		responsiveSlides: true,
 		parallax: false,
 		parallaxOptions: {type: 'reveal', percentage: 62, property: 'translate'},
 
