@@ -3,8 +3,8 @@ $('#fullpage').fullpage({
 		//Navigation
 		menu: '#menu',
 		lockAnchors: false,
-		anchors:['firstPage', 'secondPage'],
-		navigation: true,
+        anchors: ['VirtuAll tech.', 'WhatWeDo', 'OurEthics', 'OurRate', 'MeetOurTeam', 'ContactUs'],
+		navigation: false,
 		navigationPosition: 'right',
 		navigationTooltips: ['firstSlide', 'secondSlide'],
 		showActiveTooltip: false,
@@ -47,7 +47,7 @@ $('#fullpage').fullpage({
 		//Design
 		controlArrows: true,
 		verticalCentered: true,
-		sectionsColor : ['#ccc', '#fff'],
+        sectionsColor: ['#5f81b7', '#4BBFC3', '#7BAABE', '#578de5', '#8eb6ff', '#e8eef9' ],
 		paddingTop: '3em',
 		paddingBottom: '10px',
 		fixedElements: '#header, .footer',
