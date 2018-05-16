@@ -1,6 +1,10 @@
 h1{ text-align: center; }
 h2{ text-align: center; }
+
+.teamProfile{ display:inline-block; }
+
 #mainLogo{ padding-top:15px; }
+#ourTeam img { height:400px; }
 
 
 @CHARSET "ISO-8859-1";
@@ -67,7 +71,7 @@ h1{
 	font-size: 6em;
 }
 p{
-	font-size: 2em;
+	font-size: 3em;
 }
 .intro p{
 	width: 50%;
@@ -235,14 +239,3 @@ p{
 	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
 	padding: 0 0 5px 0;
 }
-
-
-
-/* Demos Menu
- * --------------------------------------- */
- #demosMenu{
-	position:fixed;
-	bottom: 10px;
-	right:10px;
-	z-index: 999;
- }

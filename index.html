@@ -18,14 +18,13 @@
   <link rel="shortcut icon" type="image/ico" href="favicon.ico">
 
   <script src="scripts/jquery-3.2.1.min.js" ></script>
-  <script src="scripts/jquery.fullPage.js"></script>
   <script src="scripts/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
-  <script src="scripts/jquery.nicescroll.min.js" ></script>
+  <script src="scripts/jquery.fullPage.js"></script>
       <script type="text/javascript">
         $(document).ready(function() {
             $('#fullpage').fullpage({
               sectionsColor: ['#5f81b7', '#4BBFC3', '#7BAABE', '#578de5', '#8eb6ff', '#e8eef9' ],
-              anchors: ['section1', 'section2', 'section3', 'section4', 'section5', 'section6'],
+              anchors: ['VirtuAll tech.', 'WhatWeDo', 'OurEthics', 'OurRate', 'MeetOurTeam', 'ContactUs'],
               menu: '#menu',
             });
         });
@@ -36,12 +35,12 @@
 
 <body id="index">
   <div id="menu">
-    <li data-menuanchor="section1" class="active"><a href="#section1">VirtuAll tech.</a></li>
-    <li data-menuanchor="section2"><a href="#section2">What We Do</a></li>
-    <li data-menuanchor="section3"><a href="#section3">Our Ethics</a></li>
-    <li data-menuanchor="section4"><a href="#section4">Our Rate</a></li>
-    <li data-menuanchor="section5"><a href="#section5">Meet Our Team</a></li>
-    <li data-menuanchor="section6"><a href="#section6">Contact Us</a></li>
+    <li data-menuanchor="VirtuAll tech." class="active"><a href="#VirtuAll tech.">VirtuAll tech.</a></li>
+    <li data-menuanchor="WhatWeDo"><a href="#WhatWeDo">What We Do</a></li>
+    <li data-menuanchor="OurEthics"><a href="#OurEthics">Our Ethics</a></li>
+    <li data-menuanchor="OurRate"><a href="#OurRate">Our Rate</a></li>
+    <li data-menuanchor="MeetOurTeam"><a href="#MeetOurTeam">Meet Our Team</a></li>
+    <li data-menuanchor="ContactUs"><a href="#ContactUs">Contact Us</a></li>
   </div>
 
 <div id="fullpage">
@@ -51,24 +50,29 @@
         <p>For All Your Virtual Needs</p>
     </div>
 
-    <div class="section">
-      <p class="slide">Web Design</h1>
-      <p class="slide">Domain Hosting Setup</p>
-      <p class="slide">Web App Development</p>
-      <p class="slide">Native Application Development</p>
+    <div class="section" id="whatWeDo">
+      <div class="slide"> <h1>What We Do</h1> <p>Web Design</p> </div>
+      <div class="slide"> <h1>What We Do</h1> <p>Domain Hosting Setup</p> </div>
+      <div class="slide"> <h1>What We Do</h1> <p>Web App Development</p> </div>
+      <div class="slide"> <h1>What We Do</h1> <p>Native Application Development</p> </div>
     </div>
 
     <div class="section">
-      <h2>A well-crafted website is your most powerful advertisement. In the age of digital marketing, your virtual image is your audience's first impression. Let us craft you a website worthy to be called your own. We will beat out the competition in both price and quality. Call us today to give your business the best face possible.</h2>
+      <h1>Our Ethics</h1>
+      <p>A well-crafted website is your most powerful advertisement. In the age of digital marketing, your virtual image is your audience's first impression. Let us craft you a website worthy to be called your own. We will beat out the competition in both price and quality. Call us today to give your business the best face possible.</p>
     </div>
 
     <div class="section">
-      <p>We'll simply beat competitor pricing.</p>
+      <h1>Our Rate</h1>
+      <p>A great website doesn't have to cost a fortune.  We will beat our competitors' pricing and offer you the best rate for our work.</p>
     </div>
 
-    <div class="section">
+    <div class="section" id="ourTeam">
       <h1>Our Team</h1>
-      <p>Meet the bois</p>
+        <div class="teamProfile"><img src="img/joe.png"/><p>Joe Pignataro</p></div>
+        <div class="teamProfile"><img src="img/jon.png"/><p>Jon Smith</p></div>
+        <div class="teamProfile"><img src="img/nikita.png"/><p>Nikita Fedenchenko</p></div>
+        <div class="teamProfile"><img src="img/ryan.png"/><p>Ryan Otto</p></div>
     </div>
 
     <div class="section">
