@@ -5,7 +5,7 @@ $(document).ready(function() {
 		menu: '#menu',
 		lockAnchors: false,
 		anchors:['firstPage', 'secondPage'],
-		navigation: false,
+		navigation: true,
 		navigationPosition: 'right',
 		navigationTooltips: ['firstSlide', 'secondSlide'],
 		showActiveTooltip: false,
