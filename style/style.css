@@ -70,9 +70,13 @@ body{
 h1{
 	font-size: 6em;
 }
-p{
+h2{
 	font-size: 3em;
 }
+p{
+	font-size: 1.75em;
+}
+
 .intro p{
 	width: 50%;
 	margin: 0 auto;
