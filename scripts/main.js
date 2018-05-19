@@ -14,10 +14,10 @@ $('#fullpage').fullpage({
 		//Scrolling
 		css3: true,
 		scrollingSpeed: 800,
-		autoScrolling: true,
+		autoScrolling: false,
 		fitToSection: true,
 		fitToSectionDelay: 1000,
-		scrollBar: false,
+		scrollBar: true,
 		easing: 'easeInOutCubic',
 		easingcss3: 'ease',
 		loopBottom: false,
