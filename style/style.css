@@ -3,6 +3,7 @@ h2{ text-align: center; font-family:Quattrocento Sans}
 
 .section h2{ width: 90%; margin-left: 5%; }
 .teamProfile{ display:inline-block; }
+.whatWeDoFirstHeader{ opacity:0.3; padding-bottom:250px; }
 
 #mainLogo{ padding-top:15px; }
 #ourTeam img { height:400px; }
