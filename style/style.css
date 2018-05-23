@@ -4,7 +4,6 @@ h2{ text-align: center; font-family:Quattrocento Sans}
 .mainLogo{width:100%; opacity:0.05; background-image:"img/logo.png";}
 .section h2{ width: 90%; margin-left: 5%; }
 .teamProfile{ display:inline-block; }
-
 .virtuAllHeader{padding-bottom:250px;}
 .whatWeDoBody{padding-bottom:200px;}
 .whatWeDoDescription{ width:40% !important; float:left; }
