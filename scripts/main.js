@@ -3,7 +3,7 @@ $('#fullpage').fullpage({
 		//Navigation
 		menu: '#menu',
 		lockAnchors: false,
-        anchors: ['VirtuAll tech.', 'WhatWeDo', 'OurEthics', /*'OurRate',*/ 'MeetOurTeam', 'ContactUs'],
+        anchors: ['VirtuAll tech.', 'WhatWeDo', 'OurMission', /*'OurRate',*/ 'MeetOurTeam', 'ContactUs'],
 		navigation: false,
 		navigationPosition: 'right',
 		navigationTooltips: ['firstSlide', 'secondSlide'],
