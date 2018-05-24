@@ -1,16 +1,16 @@
 h1{ text-align: center; font-family:Quattrocento Sans}
 h2{ text-align: center; font-family:Quattrocento Sans}
 
+.mainLogo{width:100%; opacity:0.05; background-image:"img/logo.png";}
 .section h2{ width: 90%; margin-left: 5%; }
 .teamProfile{ display:inline-block; }
-.whatWeDoFirstHeader{ opacity:0.3; padding-bottom:250px; }
 .virtuAllHeader{padding-bottom:250px;}
 .whatWeDoBody{padding-bottom:200px;}
 .whatWeDoDescription{ width:40% !important; float:left; }
 .whatWeDoDescriptionImage{ width:45%; float:right; margin-right:5%; }
+.whatWeDoFirstHeader{ opacity:0.3; padding-bottom:250px; }
 
-
-.mainLogo{width:100%; opacity:0.05; background-image:"img/logo.png"; }
+#missionStatement{ font-family:dancing script }
 #ourTeam img { height:400px; }
 
 
