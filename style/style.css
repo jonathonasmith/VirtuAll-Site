@@ -8,12 +8,12 @@ h2{ text-align: center; font-family:Quattrocento Sans}
 
 @media screen and (min-device-width:1200px){
 .whatWeDoDescription{ width:40% !important; float:left; }
-.whatWeDoDescriptionImage{ height:250px ;width:45%; float:right; margin-right:5%; }
+.whatWeDoDescriptionImage{ height:60% !important ;width:45%; float:right; margin-right:5%; }
 }
 
 @media screen and (max-device-width:1199px){
 .whatWeDoDescription{ width:100% !important; }
-.whatWeDoDescriptionImage{ height:375px; width:100%; margin-right:5%; padding-top:55px; }
+.whatWeDoDescriptionImage{ height:80% !important; width:100%; margin-right:5%; padding-top:55px; }
 }
 
 
