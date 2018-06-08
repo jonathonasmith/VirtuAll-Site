@@ -12,7 +12,7 @@ h2{ text-align: center; font-family:Quattrocento Sans}
 }
 
 @media screen and (max-device-width:1199px){
-.whatWeDoDescription{ width:100% !important; }
+.whatWeDoDescription{ width:90% !important; }
 .whatWeDoDescriptionImage{ height:80% !important; width:100%; margin-right:5%; padding-top:55px; }
 }
 
