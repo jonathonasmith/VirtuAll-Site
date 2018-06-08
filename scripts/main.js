@@ -3,7 +3,7 @@ $('#fullpage').fullpage({
 		//Navigation
 		menu: '#menu',
 		lockAnchors: false,
-        anchors: ['VirtuAll tech.', 'WhatWeDo', 'OurMission', /*'OurRate',*/ 'MeetOurTeam', 'ContactUs'],
+        anchors: ['VirtuAll tech', 'WhatWeDo', 'OurMission', /*'OurRate',*/ 'MeetOurTeam', 'ContactUs'],
 		navigation: false,
 		navigationPosition: 'right',
 		navigationTooltips: ['firstSlide', 'secondSlide'],
@@ -47,7 +47,7 @@ $('#fullpage').fullpage({
 		//Design
 		controlArrows: true,
 		verticalCentered: true,
-        sectionsColor: ['#5f7fb5', '#4BBFC3', '#7BAABE', '#578de5', '#8eb6ff', '#e8eef9' ],
+        sectionsColor: ['#ffffff', '#4BBFC3', '#7BAABE', '#578de5', '#8eb6ff', '#e8eef9' ],
 		paddingTop: '3em',
 		paddingBottom: '10px',
 		fixedElements: '#header, .footer',
@@ -66,7 +66,9 @@ $('#fullpage').fullpage({
 		//events
 		onLeave: function(index, nextIndex, direction){},
 		afterLoad: function(anchorLink, index){},
-		afterRender: function(){},
+		afterRender: function(){
+			$('.whatWeDoDescriptionImage').height('60%');
+		},
 		afterResize: function(){},
 		afterResponsive: function(isResponsive){},
 		afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
